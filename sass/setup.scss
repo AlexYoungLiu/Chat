@@ -1,0 +1,151 @@
+#setup{
+	.main_view{
+		@include full;
+		background:url(../images/setup-bg.png) no-repeat 0 0;
+		background-size:100% 100%;
+	}
+
+	.setup_view{
+		width:100%;
+		height:90%;
+		padding:24px 24px;
+	}
+
+	.setup_box{
+		@include full;
+		background:#FFF;
+	}
+
+	.photo_box{
+		width:100%;
+		height:80px;
+		@include pos;
+	}
+
+	.head_photo{
+		float:left;
+		width:80px;
+		height:80px;
+	}
+
+	.update_photo_btn,.update_wo{
+		width:84px;
+		height:18px;
+		border:none;
+		background:none;
+		border-bottom:1px solid #B49190;
+		font-size:0.6rem;
+		color:#B49190;
+		@include pos(absolute);
+		left:50%;
+		top:32px;
+		margin-left:-42px;
+	}
+
+	.update_photo_btn{
+		opacity:0;
+	}
+
+	.setup_photo_more{
+		@include pos(absolute);
+		right:16px;
+		top:50%;
+		margin-top:-10px;
+		width:10px;
+		height:20px;
+		background:url(../images/more-b-icon.png) no-repeat center center;
+		background-size:4px 10px;
+	}
+
+	.setup_items{
+		width:100%;
+		box-shadow:inset 0 30px 50px rgba(0,0,0,.16);
+		padding:30px 24px;
+	}
+
+	.setup_item{
+		width:100%;
+		span{
+			display:block;
+			width:100%;
+			height:20px;
+			margin-top:14px;
+			font-size:0.6rem;
+			color:#B49190;
+			line-height:20px;
+		}
+		input{
+			width:100%;
+			height:40px;
+			border:none;
+			background:none;
+			border-bottom:1px solid #B49190;
+			font-size:0.6rem;
+			color:#000;
+		}
+		::-webkit-input-placeholder{
+			color:#000;
+		}
+	}
+
+	.notice_items{
+		width:100%;
+		padding:0 24px 30px 24px;
+	}
+
+	.notice_item{
+		width:100%;
+		height:30px;
+	}
+
+	.notice_item_theme{
+		float:left;
+		height:30px;
+		font-size:0.6rem;
+		color:#000;
+		line-height:30px;
+	}
+
+	.notice_item_btn{
+		float:right;
+		width:32px;
+		height:14px;
+		margin-top:8px;
+		border-radius:10px;
+		background:#000;
+		@include pos;
+	}
+
+	.notice_item_btn_icon{
+		width:6px;
+		height:6px;
+		border-radius:50%;
+		@include pos(absolute);
+		left:5px;
+		top:4px;
+	}
+
+	.notice_item_active{
+		left:5px;
+		background:#FFF;
+	}
+
+	.notice_item_actived{
+		left:21px;
+		background:#666;
+	}
+
+	.send_feedback_box{
+		width:100%;
+		height:50px;
+	}
+
+	.send_feedback_btn{
+		width:100%;
+		height:50px;
+		border:none;
+		background:#FFBDB8;
+		font-size:0.6rem;
+		color:#000;
+	}
+}

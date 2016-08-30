@@ -1,0 +1,231 @@
+{
+	"user_data":{
+		"users":[
+			{
+				"name":"Emma Aiden",
+				"photo":"images/photo1.png",
+				"vocation":"Project Manager",
+				"site":"Vancouver",
+				"likes":"728",
+				"following":"2,705",
+				"followers":"38054",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Sophia Jayden",
+				"photo":"images/photo2.png",
+				"vocation":"Journalist",
+				"site":"Sao Paulo",
+				"likes":"1372",
+				"following":"10,372",
+				"followers":"7508",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Madison Ethan",
+				"photo":"images/photo3.png",
+				"vocation":"Beertaster",
+				"site":"London",
+				"likes":"385",
+				"following":"618",
+				"followers":"2639",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Isabella Jacob",
+				"photo":"images/photo4.png",
+				"vocation":"singer",
+				"site":"Shanghai",
+				"likes":"6618",
+				"following":"35,757",
+				"followers":"8459",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Olivia Caden",
+				"photo":"images/photo5.png",
+				"vocation":"Executive Secretary",
+				"site":"Phoenix",
+				"likes":"1837",
+				"following":"7,757",
+				"followers":"2809",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Ava Jackson",
+				"photo":"images/photo6.png",
+				"vocation":"Landscape Architect",
+				"site":"New Orleans",
+				"likes":"6592",
+				"following":"60,757",
+				"followers":"17004",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Madeline Noah",
+				"photo":"images/photo1.png",
+				"vocation":"Stock Broker",
+				"site":"Atlanta",
+				"likes":"947",
+				"following":"8,757",
+				"followers":"7015",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Addison Jack",
+				"photo":"images/photo2.png",
+				"vocation":"Police Officer",
+				"site":"Montreal",
+				"likes":"4019",
+				"following":"845",
+				"followers":"2804",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Hailey Logan",
+				"photo":"images/photo3.png",
+				"vocation":"Television Director",
+				"site":"Casablanca",
+				"likes":"5375",
+				"following":"10,757",
+				"followers":"9074",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Lily Matthew",
+				"photo":"images/photo4.png",
+				"vocation":"Author",
+				"site":"Barcelona",
+				"likes":"6017",
+				"following":"70,779",
+				"followers":"28677",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Kaitlyn Nicholas",
+				"photo":"images/photo5.png",
+				"vocation":"Translator",
+				"site":"Cape Town",
+				"likes":"8203",
+				"following":"6,705",
+				"followers":"3587",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Ella Lucas",
+				"photo":"images/photo6.png",
+				"vocation":"Art Director",
+				"site":"Kuwait City",
+				"likes":"1063",
+				"following":"527",
+				"followers":"1983",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Anemone",
+				"photo":"images/photo1.png",
+				"vocation":"Social Worker",
+				"site":"Kuala Lumpur",
+				"likes":"905",
+				"following":"3,748",
+				"followers":"8461",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Sarah Connor",
+				"photo":"images/photo2.png",
+				"vocation":"Stewardess",
+				"site":"Tokyo",
+				"likes":"7336",
+				"following":"76,017",
+				"followers":"6420",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			},
+			{
+				"name":"Amanda",
+				"photo":"images/photo3.png",
+				"vocation":"Dental Technician",
+				"site":"Beijing",
+				"likes":"60185",
+				"following":"26,670",
+				"followers":"9804",
+				"ynFollow":true,
+				"profile_pic":[
+					"images/pic1.png",
+					"images/pic2.png",
+					"images/pic3.png"
+				]
+			}
+		]
+	}
+}

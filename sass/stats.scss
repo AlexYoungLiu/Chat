@@ -1,0 +1,127 @@
+#stats{
+	.main_view{
+		@include full;
+	}
+
+	.date_box{
+		width:100%;
+		height:120px;
+		overflow:hidden;
+		background:#FFBDB8;
+		@include pos;
+	}
+
+	.date_item{
+		float:left;
+		width:100%;
+		height:120px;
+		:nth-child(1){
+			display:block;
+			width:100%;
+			height:20px;
+			font-size:1.2rem;
+			font-weight:800;
+			color:#000;
+			line-height:20px;
+			text-align:center;
+			margin-top:20px;
+		}
+		:nth-child(2){
+			display:block;
+			width:100%;
+			font-size:0.8rem;
+			color:#777;
+			text-align:center;
+		}
+	}
+
+	.left_btn{
+		@include pos(absolute);
+		left:20px;
+		top:20px;
+		width:20px;
+		height:20px;
+		background:url(../images/left-icon.png) no-repeat center center;
+		background-size:8px 14px;
+	}
+
+	.right_btn{
+		@include pos(absolute);
+		right:20px;
+		top:20px;
+		width:20px;
+		height:20px;
+		background:url(../images/right-icon.png) no-repeat center center;
+		background-size:8px 14px;
+	}
+
+	.stats_box{
+		width:100%;
+		height:100%;
+		background:#FFF;
+		@include pos;
+	}
+
+	.likes_box{
+		@include pos(absolute);
+		left:6%;
+		top:-40px;
+		width:42%;
+		height:140px;
+		background:url(../images/likes-icon.png) no-repeat center 20px,#FFF;
+		background-size:15px 13px;
+	}
+
+	.followers_box{
+		@include pos(absolute);
+		right:6%;
+		top:-40px;
+		width:42%;
+		height:140px;
+		background:url(../images/followers-icon.png) no-repeat center 20px,#FFF;
+		background-size:16px 14px;
+	}
+
+	.likes_num,.followers_num{
+		display:block;
+		width:100%;
+		height:100px;
+		padding-top:30px;
+		font-size:3rem;
+		font-weight:800;
+		color:#000;
+		line-height:70px;
+		text-align:center;
+	}
+
+	.likes_num+span,.followers_num+span{
+		display:block;
+		width:100%;
+		height:40px;
+		background:#FFBDB8;
+		font-size:0.8rem;
+		color:#000;
+		line-height:40px;
+		text-align:center;
+	}
+
+	.graph_box{
+		width:100%;
+		height:100%;
+		padding-top:100px;
+		display:-webkit-flex;
+	}
+
+	.graph_item{
+		-webkit-flex:1;
+		border-right:1px solid #FFBDB8;
+		padding-top:84%;
+		font-size:0.7rem;
+		color:#000;
+		text-align:center;
+	}
+
+	.graph_item:last-child{
+		border-right:none;
+	}
+}

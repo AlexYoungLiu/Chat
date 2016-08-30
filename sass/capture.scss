@@ -1,0 +1,110 @@
+#capture{
+	.main_view{
+		@include full;
+		@include pos;
+	}
+
+	.header{
+		@include pos(fixed);
+		left:0;
+		top:0;
+		z-index:100000;
+	}
+
+	.head_menu{
+		width:100%;
+		height:100%;
+		padding-left:50px;
+		display:-webkit-flex;
+		span{
+			-webkit-flex:1;
+		}
+	}
+
+	.grid{
+		background:url(../images/grid-icon.png) no-repeat center center;
+		background-size:14px 14px;
+	}
+
+	.timer{
+		background:url(../images/timer-icon.png) no-repeat center center;
+		background-size:14px 18px;
+	}
+
+	.setting{
+		background:url(../images/setting-icon.png) no-repeat center center;
+		background-size:14px 14px;
+	}
+
+	.record{
+		background:url(../images/record-icon.png) no-repeat center center;
+		background-size:14px 14px;
+	}
+
+	.capture_box{
+		@include full;
+		background:url(../images/capture-bg.png) no-repeat 0 0;
+		background-size:100% 100%;
+	}
+
+	#video{
+		width:100%;
+		height:100%;
+		object-fit:fill;
+	}
+
+	#canvas{
+		width:100%;
+		height:100%;
+	}
+
+	.bottom_menu{
+		@include pos(fixed);
+		left:0;
+		bottom:0;
+		width:100%;
+		height:60px;
+	}
+
+	.rotate{
+		@include pos(absolute);
+		left:24px;
+		bottom:24px;
+		width:16px;
+		height:16px;
+		background:url(../images/rotate-icon.png) no-repeat 0 0;
+		background-size:100% 100%;
+	}
+
+	.flash{
+		@include pos(absolute);
+		left:64px;
+		bottom:22px;
+		width:12px;
+		height:20px;
+		background:url(../images/flash-icon.png) no-repeat 0 0;
+		background-size:100% 100%;
+	}
+
+	.preview{
+		@include pos(absolute);
+		right:20px;
+		bottom:20px;
+		width:30px;
+		height:30px;
+		background:url(../images/preview-photo.png) no-repeat 0 0;
+		background-size:100% 100%;
+	}
+
+	.capture{
+		@include pos(fixed);
+		left:50%;
+		bottom:20px;
+		width:50px;
+		height:50px;
+		margin-left:-25px;
+		border-radius:50%;
+		background:url(../images/capture-btn.png) no-repeat 0 0;
+		background-size:100% 100%;
+	}
+}
